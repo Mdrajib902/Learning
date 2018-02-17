@@ -1,0 +1,112 @@
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+            body {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 15px;
+                line-height: 24px;
+            }
+            
+            html,
+            body {
+                background: #fff;
+            }
+            
+            a {
+                color: #0da7a3;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                text-decoration: none;
+            }
+            /* Top header */
+            
+            .top-header {
+                position: relative;
+            }
+            
+            .top-header .social-wrap {
+                display: inline-block;
+                position: absolute;
+                top: 3px;
+                right: 0;
+            }
+            
+            .top-header .social-wrap a i {
+                color: #fff;
+            }
+            
+            .top-header .social-wrap a {
+                display: inline-block;
+                width: 29px;
+                height: 29px;
+                line-height: 29px;
+                background: #1ab5af;
+                text-align: center;
+                margin-right: 20px;
+            }
+            
+            .top-header .social-wrap a:last-child {
+                margin-right: 0;
+            }
+            /* Navigation */
+            
+            ul.navbar-nav li a {
+                font-size: 18px;
+                line-height: 20px;
+                padding: 30px !important;
+            }
+            
+            ul.navbar-nav li a:hover {
+                color: #0da7a3;
+            }
+            
+            ul.navbar-nav li.active a,
+            ul.navbar-nav li a:hover {
+                text-decoration: underline;
+            }
+            
+            ul.navbar-nav li:last-child a {
+                padding-right: 0 !important;
+            }
+            /* Banner */
+            
+            section.home-banner .container,
+            section.home-banner .row {
+                height: 100%;
+            }
+            
+            section.home-banner {
+                height: 887px;
+                background: url("../img/banner-bg.jpg");
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                color: #fff;
+            }
+            
+            section.home-banner::after {
+                content: " ";
+                width: 100%;
+                height: 100%;
+                background: rgba(26, 181, 175, .8);
+                left: 0;
+                top: 0;
+                position: absolute;
+                z-index: 1;
+            }
+            
+            .banner-warp {
+                z-index: 2;
+                position: relative;
+            }
+            
+            .banner-warp h2 {
+                font-size: 60px;
+                line-height: 18px;
+                padding-bottom: 40px;
+            }
+            
+            .banner-warp p {
+                font-size: 18px;
+                line-height: 24px;
+            }
