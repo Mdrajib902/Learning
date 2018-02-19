@@ -110,3 +110,150 @@
                 font-size: 18px;
                 line-height: 24px;
             }
+            /* Content section  */
+            
+            .containt-area {
+                padding: 70px 0 110px;
+            }
+            
+            .containt-area h2 {
+                margin-bottom: 90px;
+            }
+            
+            .containt-area h5 {
+                font-size: 22px;
+                color: #565555;
+                margin-bottom: 40px;
+            }
+            
+            .containt-area .media-body {
+                color: #808080;
+                font-size: 14px;
+            }
+            
+            .containt-area .team-wrapper>.row:first-child>.col-md-6 {
+                margin-bottom: 110px;
+            }
+            
+            .containt-area .team-wrapper .team-img {
+                margin-right: 27px;
+            }
+            /* Social info section */
+            
+            #social-info {
+                background: #1ab5af;
+                color: #fff;
+            }
+            
+            #social-info .sf-wrapper:after {
+                clear: both;
+                content: "";
+                display: block;
+            }
+            
+            #social-info .sf-wrapper>div {
+                width: 33.33333333%;
+                float: left;
+            }
+            
+            #social-info a {
+                color: #000;
+            }
+            
+            .sf-wrapper {
+                display: flex;
+            }
+            
+            .instagram-bg-wrap {
+                /* background: url('../img/insta-1.jpg');
+                background-position: center;
+                background-size: cover; */
+                position: relative;
+            }
+            
+            .instagram-bg-wrap:after {
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(26, 181, 175, .5);
+            }
+            
+            .instagram-bg-wrap img {
+                max-width: 100%;
+            }
+            
+            .sf-twitter-wrap,
+            .sf-testi-bg {
+                height: 100%;
+            }
+            
+            .text-center.twitter-wrap-content i {
+                font-size: 60px;
+            }
+            
+            .sf-testi {
+                background-image: url('../img/testimonial.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                position: relative;
+            }
+            
+            .sf-testi:after {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                content: "";
+                top: 0;
+                left: 0;
+                background: rgba(26, 181, 175, .5);
+                z-index: 1;
+            }
+            
+            .testi-content {
+                position: relative;
+                z-index: 2;
+            }
+            
+            .testi-content i {
+                font-size: 60px;
+                margin-bottom: 28px;
+            }
+            /* footet swection */
+            
+            #main-footer {
+                padding: 20px 0;
+            }
+            
+            .footer-logo-wrap img {
+                max-width: 73px;
+            }
+            
+            .footer-copyright,
+            .footer-menu {
+                height: 100%;
+            }
+            
+            .footer-menu nav ul li a {
+                padding: 10px 29px;
+            }
+            
+            .footer-menu nav ul li:last-child a {
+                padding-right: 0;
+            }
+            
+            @media screen and (max-width: 767px) {
+                section.home-banner {
+                    height: auto;
+                    padding: 40px 0;
+                }
+                #social-info .sf-wrapper>div {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 25px;
+                    float: none;
+                }
+            }
